@@ -1,3 +1,9 @@
+// The RightArm function helps you to adjust the servo used for the right arm of the Kapakai robot.
+// By pressing the A button you rise up the angle by 10 degrees.
+// By pressing the B button you sink down the angle by -10 degrees.
+// By pressing both A+B you send the chosen angle to the servo and see how it uses the new angle. Then you can press A or B to adjust and A+B to choose the angle you want.
+// If you want to restart from 0 angle just press the reset button on the back of the microbit.
+// 
 function RightArm () {
     while (loop) {
         if (input.buttonIsPressed(Button.AB)) {
